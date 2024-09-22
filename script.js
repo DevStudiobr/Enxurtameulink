@@ -1,6 +1,6 @@
 document.getElementById('shortenBtn').addEventListener('click', async () => {
     const longUrl = document.getElementById('longUrl').value;
-    const apiKey = '9b2684ef0252ff422f03b000c278186f'; // Substitua pela sua chave de API
+    const apiKey = '6915206aa9636bbbe80fdee5ebba5b35'; // Substitua pela sua chave de API
 
     if (!longUrl) {
         alert('Por favor, insira um link!');
