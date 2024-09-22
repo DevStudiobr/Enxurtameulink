@@ -8,7 +8,7 @@ document.getElementById('shortenBtn').addEventListener('click', async () => {
     }
 
     try {
-        const response = await fetch('http://127.0.0.1:5000/shorten', {
+const response = await fetch('http://<SEU_IP_LOCAL>:5000/shorten', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
